@@ -4,18 +4,20 @@
 
 .page {
     display: flex;
-    align-items: center;
-    border: 2px solid;
+    gap: 1rem;
+}
+
+aside, main{
+    border: 1px solid;
+    height: 95vp;
 }
 
 aside {
-    display: flex;
-    flex: 1;
-    background-color: lightslategray;
+    background-color: lightskyblue;
+    flex-basis: 25%;
 }
 
 main {
     background-color: lightskyblue;
-    display: flex;
-    flex: 1;
+    flex-basis: 25%;
 }
