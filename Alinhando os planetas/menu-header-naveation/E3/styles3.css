@@ -1,18 +1,13 @@
-.box {
+img {
+    width: 30%;
     border: 2px solid black;
-    display: flex;
+    height: auto;
 }
 
-.box div {
+.galary div {
+   display: flex;
    border: 1px solid black;
    padding: 5px;
-   margin: 5px;
-   width: 50vh;
    gap: .8rem;
-}
-
-.box div:.box div:nth-child(1),.box div:nth-child(2), .box div:nth-child(3){
-    flex-grow: 1;
-    display: flex;
-    /* flex-direction: row; */
+   flex-wrap: wrap;
 }
